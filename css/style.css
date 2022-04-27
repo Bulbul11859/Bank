@@ -1,0 +1,35 @@
+.div_one{
+    height: 200px;
+    border-radius: 1rem;
+}
+.div_two{
+    height: 200px;
+    border-radius: 1rem;
+}
+.div_three{
+    height: 200px;
+    border-radius: 1rem;
+}
+.hay{
+
+   height: 300px;
+   border-radius: 1rem;
+}
+.head{
+    display: inline-block;
+    width: 20%;
+    height: 10%;
+   margin-left: 540px;
+   background: rgb(0, 0, 0);
+   border-radius: 1rem;
+   animation-name: example;
+   animation-duration: .5s;
+   animation-iteration-count: infinite;
+ 
+}
+@keyframes example{
+    0%   {background-color: red;}
+    25%  {background-color:yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(128, 0, 96);}
+  }
